@@ -11,16 +11,22 @@ def balik():
        sys.exit()
 def baner():
     print ('''
-\t
-╔╗ ┬─┐┬ ┬┌┬┐┌─┐┬  ╔═╗┌─┐┌─┐┌┬┐┌┬┐┌─┐┬─┐
-╠╩╗├┬┘│ │ │ ├─┤│  ╚═╗├─┘├─┤││││││├┤ ├┬┘
-╚═╝┴└─└─┘ ┴ ┴ ┴┴─┘╚═╝┴  ┴ ┴┴ ┴┴ ┴└─┘┴└─
-
-\t------------
-\nCreator: Faqih ID
-Youtube: Ilangqwer
-Github : github.com/IL4NGQW3R
-==========================================''')
+\033[33;1m-------------------------------   
+   \033[37;1m____  ____  / /_          
+  \033[37;1m/ __ \/ __ \/ __/          
+ \033[37;1m/ / / / /_/ / /_            
+\033[37;1m/_/_/_/\____/\__/_ _____ ___ 
+  \033[37;1m/ ___/ __ \/ __ `/ __ `__ \
+ \033[37;1m(__  ) /_/ / /_/ / / / / / /
+\033[37;1m/____/ .___/\__,_/_/ /_/ /_/ 
+   \033[37;1m /_/
+   
+   
+\033[37;1m-----------------------------
+ \033[33;1m* \033[37;1mAuthor \033[33;1m: Faizul boften
+ \033[33;1m* \033[37;1mFacebook \033[33;1m: Faizul
+\033[37;1m-----------------------------''')
+    
 def kata(s):
     for c in s + "\n":
         sys.stdout.write(c)
@@ -248,30 +254,45 @@ if __name__=="__main__":
      try:
           clear()
           baner()
-          hh="+62"
-          no=input("[+]Phone Number: ")
+          hh="exmpile +62"
+          no=input("\033[33;1m[+]Number +62 ")
           c=no[1:12]
           w=hh+c 
           kata("Waiting....!!")
+          kata("SPAM NUMBER OTKP")
           jenius()
+          kata("suscesfully")
           oyo()
+          kata("suscesfully")
           mapclub()
+          kata("suscesfully")
           call()
-          time.sleep(2)
+          kata("suscesfully")
+          time.sleep(4)
           soplai()
+          kata("suscesfully")  
           depop()
+          kata("suscesfully")  
           rupa()
+          kata("suscesfully")  
           matahari()
+          kata("suscesfully")  
           socil()
+          kata("suscesfully")
           indo()
+          kata("suscesfully")  
           olx()
+          kata("suscesfully")  
           call2()
-          time.sleep(2)
+          time.sleep(4)
           alodoc()
+          kata("suscesfully")
           klik()
+          kata("suscesfully")  
           wa2()
-          time.sleep(2)
-          kata("[•]Done..")
+            
+          time.sleep(4)
+          kata("\033[33;1m[•]Done..")
           balik()
      except KeyError:
              sys.exit()
